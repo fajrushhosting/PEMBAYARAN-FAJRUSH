@@ -22,7 +22,7 @@
             $total_bayar = $amount + $unique_code;
             
             // Endpoint API FR3NEWERA (Sesuaikan dengan dokumentasi resmi URL API mereka)
-            $url = "https://api.fr3newera.com/v1/generate-qris"; 
+            $url = "https://fr3newera.com"; 
 
             $payload = [
                 'api_key' => $api_key,
